@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+.section1 {
+    background-color: #1f2937;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.left {
+    padding-right: 68%;
+    font-size: 24px;
+    color: #f9faf8
+
+}
+
+.header {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+
+.slideshow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-grow: 2;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.sub-hero {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.slideshow button {
+    background-color: #3882f6;
+    width: 130px;
+    border-radius: 25px;
+    height: 45px;
+    color: white;
+    font-weight: bold;
+}
+
+.right-image {
+    height: 350px;
+    width: 600px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.square {
+    border: 2px solid blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.section2 p {
+    text-align: center;
+    width: 150px;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    padding: 2% 2% 2% 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.paragraph {
+    text-align: center;
+}
+
+.author {
+    align-content: flex-end;
+    padding-left: 315px;
+    font-weight: bolder;
+}
+
+.section4 {
+    display: flex;
+    padding: 10% 10% 10% 10%;
+    color: white;
+    justify-content: center;
+    
+}
+
+.table {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 4% 10% 4% 10%;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.design {
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 100px;
+    height: 25px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 3% 3% 3% 3%;
+    text-align: center;
+}
